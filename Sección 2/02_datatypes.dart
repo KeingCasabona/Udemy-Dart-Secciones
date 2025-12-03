@@ -36,4 +36,10 @@ void main() {
   ''';
 
   print(multilinea);
+
+  //Booleanos:
+  bool isActive = true;
+  bool isNotActive = !isActive;
+
+  print(isNotActive);
 }
