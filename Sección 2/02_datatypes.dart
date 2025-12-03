@@ -42,4 +42,11 @@ void main() {
   bool isNotActive = !isActive;
 
   print(isNotActive);
+
+  //List-Arreglos-Colecciones
+  List<String> villanos = ['Lex', 'Red Skull', 'Doom'];
+
+  villanos[0] = 'keing';
+  villanos[1] = 'Con';
+  print(villanos[0]);
 }
