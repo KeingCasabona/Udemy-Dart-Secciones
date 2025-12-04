@@ -1,12 +1,12 @@
 void main() {
   // Numeros
-  int a = 10;
-  double b = 5.5;
+  // int a = 10;
+  // double b = 5.5;
 
-  int? c;
+  // int? c;
 
-  int _a = 30;
-  double $b = 40;
+  // int _a = 30;
+  // double $b = 40;
 
   // print(a);
   // print(c);
@@ -46,7 +46,25 @@ void main() {
   //List-Arreglos-Colecciones
   List<String> villanos = ['Lex', 'Red Skull', 'Doom'];
 
-  villanos[0] = 'keing';
-  villanos[1] = 'Con';
-  print(villanos[0]);
+  // villanos[0] = 'keing';
+  // villanos[1] = 'Con';
+  // print(villanos[0]);
+  print('---------');
+
+  villanos.add('Duende verde');
+  villanos.add('Duende verde');
+  villanos.add('Duende verde');
+  villanos.add('Duende verde');
+  print(villanos);
+  var villanosSet = villanos.toSet();
+  print(villanosSet.toList());
+
+  // Sets
+  Set<String> villanos2 = {'Lex', 'Red Skull', 'Doom'};
+  villanos2.add('Duende verde');
+  villanos2.add('Duende verde');
+  villanos2.add('Duende verde');
+  villanos2.add('Duende verde');
+
+  print(villanos2);
 }
