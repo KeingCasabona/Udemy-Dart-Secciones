@@ -49,6 +49,7 @@ void main() {
   // villanos[0] = 'keing';
   // villanos[1] = 'Con';
   // print(villanos[0]);
+  print(villanos);
   print('---------');
 
   villanos.add('Duende verde');
@@ -58,6 +59,7 @@ void main() {
   print(villanos);
   var villanosSet = villanos.toSet();
   print(villanosSet.toList());
+  print('------------------------');
 
   // Sets
   Set<String> villanos2 = {'Lex', 'Red Skull', 'Doom'};
@@ -67,4 +69,23 @@ void main() {
   villanos2.add('Duende verde');
 
   print(villanos2);
+
+  // Maps
+  Map<int, dynamic> ironman = {
+    1: 'Tony Stark',
+    2: 'Inteligencia y dinero',
+    3: 9000,
+  };
+
+  print(ironman[1.5]);
+
+  Map<String, dynamic> capitan = Map();
+
+  capitan.addAll({
+    'nombre': 'Steve',
+    'poder': 'Soportar droga sin morir',
+    'nivel': 5000,
+  });
+
+  print(capitan);
 }
