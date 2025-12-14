@@ -7,6 +7,11 @@ main() {
   // b = 20;
   // c = 20;
 
+  late final double x;
+
+  x = 10;
+  print(x);
+
   // final personasFinal = ['Juan', 'Pedro', 'Fernando'];
   // const personasConst = ['Juan', 'Pedro', 'Fernando'];
 
@@ -16,6 +21,6 @@ main() {
   personasFinal.add('Maria');
   // personasConst.add('Maria');
 
-  print(personasFinal);
-  print(personasConst);
+  // print(personasFinal);
+  // print(personasConst);
 }
