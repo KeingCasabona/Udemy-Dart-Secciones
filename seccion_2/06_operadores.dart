@@ -13,4 +13,38 @@ main() {
   print(b);
   print(resp);
   print(d);
+
+  //OPERADORES RELACIONALES:
+  //RETORNAN UN VALOR BOOLEANO:
+  /*
+    > Mayor que
+    < Menor que
+    >= Mayor que
+    <= Menor que
+
+    == Revisa si dos objetos son iguales
+    != Revisa si dos objetos son diferentes
+
+  */
+
+  String persona1 = 'Fernando';
+  String persona2 = 'Alberto';
+
+  print(persona1 == persona2);
+  print(persona1 != persona2);
+
+  int x = 20;
+  int y = 30;
+
+  print(x > y); //false
+  print(x < y); //true
+  print(x >= y); //false
+  print(x <= y); //true
+
+  //Operador de tipo:
+  // int i = 10;
+  String j = '10';
+
+  // print(i is int);
+  print(j is int);
 }
